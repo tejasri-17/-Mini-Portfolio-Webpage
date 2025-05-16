@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+header, section, footer {
+  padding: 20px;
+  text-align: center;
+  background: white;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+#skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.project {
+  margin-bottom: 15px;
+}
+
+form input, form textarea {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #555;
+}
